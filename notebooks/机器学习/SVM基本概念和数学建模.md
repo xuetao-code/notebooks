@@ -27,7 +27,7 @@ SVM算法认为分类器A在性能上优于分类器B，其依据事A的分类�
 3. 把公式向量化：
     $[a,-1]\left[ \begin{array}{c}x_1\\x_2\end{array} \right] +b=0$
 4. 转换一下:
-    $\boldsymbol{\omega}^T\boldsymbol{x}+\gamma=0$
+    <img src="http://latex.codecogs.com/gif.latex?\frac{\partial J}{\partial \theta_k^{(j)}}=\sum_{i:r(i,j)=1}{\big((\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\big)x_k^{(i)}}+\lambda \theta_k^{(j)}" />
     其中$\boldsymbol{\omega},\boldsymbol{x}$表示这两个变量是个向量，$\boldsymbol{\omega}=[\omega_1,\omega_2]^T$, $\boldsymbol{x}=[x_1,x_2]^T$
     > 一般我们提到向量的时候，默认提到的是列向量，所以我们在方括号后面加上标T，表示转置
 
